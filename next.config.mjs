@@ -2,8 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  // assetPrefix: "./typescript-mortgage-calc"
-  assetPrefix: "./"
+  assetPrefix: "./typescript-mortgage-calc"
+  // assetPrefix: "./"
 }
 
 export default nextConfig;
