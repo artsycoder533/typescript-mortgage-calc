@@ -2,9 +2,13 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  assetPrefix: "./typescript-mortgage-calc"
+  images: {
+    loader: "akamai",
+    path: "",
+  },
+  assetPrefix: "./typescript-mortgage-calc",
   // assetPrefix: "./"
-}
+};
 
 export default nextConfig;
 //module.exports = nextConfig
