@@ -2,6 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  assetPrefix: "./typescript-mortgage-calc"
 }
 
-module.exports = nextConfig
+export default nextConfig;
+//module.exports = nextConfig
